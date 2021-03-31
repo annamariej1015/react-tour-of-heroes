@@ -50,7 +50,7 @@ const HeroPage = () => {
                     <div className='card'>
                         <div className='row no-gutters'>
                             <div className='col-md-4 th-img-container'>
-                                <div            className='th-hero-img' style ={{backgroundImage:`url($hero.image_url)`}}></div>
+                                <div className='th-hero-img' style={{ backgroundImage: `url(${hero.image_url})` }}></div>
                             </div>
 
                             <div className='col-md-8 th-card-body'>
@@ -100,10 +100,10 @@ const HeroPage = () => {
                                                 <h4 className='text-primary'>Characters</h4>
                                                 <p className='ml-5'> 
                                                     {hero.characters?.map((ch, i) => {
-                                                        return(
+                                                        return (
                                                             <span key={i}> 
                                                             {ch} 
-                                                            {i === hero.characters.length -1 ? '' : ', '}
+                                                            {i === hero.characters.length - 1 ? '' : ', '}
                                                             </span>
                                                         );
                                                     })}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { heroData } from '../data/heroes';
+import  { heroData } from '../data/heroes';
 import HeroCard  from '../components/HeroCard';
 import '../App.css';
 
